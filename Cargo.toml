@@ -11,11 +11,11 @@ license-file = "LICENSE"
 anyhow = "1"
 clap = { version = "4", features = ["derive"] }
 clap_complete = "4"
-colored = "2"
+colored = "3"
 reqwest = { version = "0", features = ["blocking"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
-steamlocate = "2.0.0-alpha"
+steamlocate = "2"
 
 [profile.release]
 strip = true
