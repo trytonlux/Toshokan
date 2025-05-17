@@ -66,9 +66,12 @@ fn should_filter(id: u32) -> bool {
         1580130, // Proton 6.3
         1887720, // Proton 7.0
         2348590, // Proton 8.0
+        2805730, // Proton 9.0
+        3658110, // Proton 10.0
         1826330, // Proton EasyAntiCheat Runtime
         1493710, // Proton Experimental
         2180100, // Proton Hotfix
+        1070560, // Steam Linux Runtime 1.0 (scout)
         1391110, // Steam Linux Runtime 2.0 (soldier)
         1628350, // Steam Linux Runtime 3.0 (sniper)
         228980,  // Steamworks Common Redistributables
