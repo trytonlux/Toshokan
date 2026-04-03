@@ -84,6 +84,18 @@ fn print_info(game: steam::Game) {
             Err(err) => eprint!("{}", err),
         };
     }
+
+    println!(
+        "{:<width$} https://www.pcgamingwiki.com/wiki/{}",
+        "pcgamingwiki".blue().bold(),
+        game.name.replace(" ", "_")
+    );
+
+    println!(
+        "{:<width$} https://github.com/Open-Wine-Components/umu-protonfixes/blob/master/gamefixes-steam/{}.py",
+        "protonfixes".blue().bold(),
+        game.appid
+    );
 }
 
 fn info(appid: u32) -> Result<()> {
