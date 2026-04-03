@@ -86,7 +86,7 @@ fn print_info(game: steam::Game) {
     }
 
     println!(
-        "{:<width$} https://www.pcgamingwiki.com/wiki/{}",
+        "{:<width$} https://www.pcgamingwiki.com/w/index.php?search={}}",
         "pcgamingwiki".blue().bold(),
         game.name.replace(" ", "_")
     );
